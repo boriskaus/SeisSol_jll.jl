@@ -1,0 +1,45 @@
+[[SeisSol]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "48e032b6608f228dbc6e1296a3319371f9913a69"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "macos"
+
+    [[SeisSol.download]]
+    sha256 = "9f309d1e53dea7040b2eb131e5971aa549668ef7cc985aa9635db630705e16e8"
+    url = "https://github.com/boriskaus/SeisSol_jll.jl/releases/download/SeisSol-v1.3.2+0/SeisSol.v1.3.2.aarch64-apple-darwin-libgfortran5-cxx11-mpi+mpich.tar.gz"
+[[SeisSol]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "dc3493570827486de17fcd09fe8c8c82b1022eda"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "macos"
+
+    [[SeisSol.download]]
+    sha256 = "b24d5f5669911063a013f51c824b956144849a67458dcf20f046052f689f5bc4"
+    url = "https://github.com/boriskaus/SeisSol_jll.jl/releases/download/SeisSol-v1.3.2+0/SeisSol.v1.3.2.x86_64-apple-darwin-libgfortran5-cxx11-mpi+mpich.tar.gz"
+[[SeisSol]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "247f734e5a5930589fc87a40daddb32119489a72"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[SeisSol.download]]
+    sha256 = "5a4dd7593a20e9185827f48c99d1fbba8ea4cac31c0dfd5d9022089b6ad10898"
+    url = "https://github.com/boriskaus/SeisSol_jll.jl/releases/download/SeisSol-v1.3.2+0/SeisSol.v1.3.2.x86_64-linux-gnu-libgfortran5-cxx11-mpi+mpich.tar.gz"
+[[SeisSol]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "5bda9fb4f54e0614463c4d36efff5a7367db49f3"
+libgfortran_version = "5.0.0"
+mpi = "microsoftmpi"
+os = "windows"
+
+    [[SeisSol.download]]
+    sha256 = "5a34247b136656c3a825c0bb3f1555dbd33513e814940fb45e9b6f529693bfd5"
+    url = "https://github.com/boriskaus/SeisSol_jll.jl/releases/download/SeisSol-v1.3.2+0/SeisSol.v1.3.2.x86_64-w64-mingw32-libgfortran5-cxx11-mpi+microsoftmpi.tar.gz"
