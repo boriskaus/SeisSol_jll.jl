@@ -25,10 +25,7 @@ The tarballs for `SeisSol_jll.jl` have been built from these sources:
 
 `SeisSol_jll.jl` is available for the following platforms:
 
-* `Platform("aarch64", "macos"; mpi = "mpich", cxxstring_abi = "cxx11")` (`aarch64-apple-darwin-cxx11-mpi+mpich`)
-* `Platform("aarch64", "linux"; mpi = "mpich", libc = "glibc", cxxstring_abi = "cxx11")` (`aarch64-linux-gnu-cxx11-mpi+mpich`)
-* `Platform("x86_64", "macos"; mpi = "mpich", cxxstring_abi = "cxx11")` (`x86_64-apple-darwin-cxx11-mpi+mpich`)
-* `Platform("x86_64", "linux"; mpi = "mpich", libc = "glibc", cxxstring_abi = "cxx11")` (`x86_64-linux-gnu-cxx11-mpi+mpich`)
+* `Platform("x86_64", "windows"; mpi = "microsoftmpi", cxxstring_abi = "cxx11")` (`x86_64-w64-mingw32-cxx11-mpi+microsoftmpi`)
 
 ## Dependencies
 
