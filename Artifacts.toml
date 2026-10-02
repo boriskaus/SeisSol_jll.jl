@@ -43,10 +43,10 @@ os = "linux"
 [[SeisSol]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "3f1b6ed3151683d26413795ed429eb6bc0b477ac"
+git-tree-sha1 = "a76367cc3ee669588ecc1a520bd94e3957ade6d8"
 mpi = "microsoftmpi"
 os = "windows"
 
     [[SeisSol.download]]
-    sha256 = "39575ee1e6b35f4abba8ab32d760431bcd37494931bcf6421118867b1b994feb"
+    sha256 = "a787e04de526d7325bf26435d957c006242b0036b38816805366ea84a1b732e0"
     url = "https://github.com/boriskaus/SeisSol_jll.jl/releases/download/SeisSol-v1.3.2+0/SeisSol.v1.3.2.x86_64-w64-mingw32-cxx11-mpi+microsoftmpi.tar.gz"
