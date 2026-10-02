@@ -1,52 +1,52 @@
 [[SeisSol]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "8325c2e1a8c95e6f5fec4da33a600cf6f21834ab"
+git-tree-sha1 = "eaa67f69a595fb3956f4f18457ea24383628e00a"
 mpi = "mpich"
 os = "macos"
 
     [[SeisSol.download]]
-    sha256 = "4eb094bed2ce80ac77608d2bc73e950056e7997d1db3cb2c47a877a105865eee"
+    sha256 = "2f7b4ab5f32add241b9d7d601f53784cc962abc46aaccdbcebace7a85bd1746b"
     url = "https://github.com/boriskaus/SeisSol_jll.jl/releases/download/SeisSol-v1.3.2+0/SeisSol.v1.3.2.aarch64-apple-darwin-cxx11-mpi+mpich.tar.gz"
 [[SeisSol]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "0e688ad25a0afd6f99b5926e338f1ff6ffc32a65"
+git-tree-sha1 = "c8fc2b8de0ce88cf3884dbecbd5d59a3d0d9fde9"
 libc = "glibc"
 mpi = "mpich"
 os = "linux"
 
     [[SeisSol.download]]
-    sha256 = "819c68a3307b6a30c9a3f47dc3918814fb506246afdc7d8c994bc0068c815224"
+    sha256 = "9012f5f980a6902cb7037937ebfbddbe66313ff4836e6b20c7bcbffea1e3b019"
     url = "https://github.com/boriskaus/SeisSol_jll.jl/releases/download/SeisSol-v1.3.2+0/SeisSol.v1.3.2.aarch64-linux-gnu-cxx11-mpi+mpich.tar.gz"
 [[SeisSol]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "a2d25b7302c5f2157a03ddcbb30db1ef1799c941"
+git-tree-sha1 = "0cdabf8304f500652a56fb958ad53be815fe3a4c"
 mpi = "mpich"
 os = "macos"
 
     [[SeisSol.download]]
-    sha256 = "3e2133aee76affec70e32c0fd7dd13225d816f18486713285401456c3f68e31a"
+    sha256 = "ac66e1bb6829423e4ad8436bbfe70e60645ff10d238e91975494157a3c9d1737"
     url = "https://github.com/boriskaus/SeisSol_jll.jl/releases/download/SeisSol-v1.3.2+0/SeisSol.v1.3.2.x86_64-apple-darwin-cxx11-mpi+mpich.tar.gz"
 [[SeisSol]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "4e16ee20eb69574c14090793ec36ee3573898cb4"
+git-tree-sha1 = "bc4517680951cd422292c1064cf8c2c516500c26"
 libc = "glibc"
 mpi = "mpich"
 os = "linux"
 
     [[SeisSol.download]]
-    sha256 = "89252a36604e4a85bc65d0d004fbe656ad75512d4ecdf9f114720d1596e6ba1f"
+    sha256 = "31ee02d2ff22c5269d7a60a04507bfa3e5aa07734a66e48a47df22a4151c8a9b"
     url = "https://github.com/boriskaus/SeisSol_jll.jl/releases/download/SeisSol-v1.3.2+0/SeisSol.v1.3.2.x86_64-linux-gnu-cxx11-mpi+mpich.tar.gz"
 [[SeisSol]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "f9a271c0d78b0e53d5a0e63878543ea6db842f0c"
+git-tree-sha1 = "3f1b6ed3151683d26413795ed429eb6bc0b477ac"
 mpi = "microsoftmpi"
 os = "windows"
 
     [[SeisSol.download]]
-    sha256 = "d17306f2a760eb05baf849fed2989c743887079a8270d6d7bbce6ff72a6ecc4d"
+    sha256 = "39575ee1e6b35f4abba8ab32d760431bcd37494931bcf6421118867b1b994feb"
     url = "https://github.com/boriskaus/SeisSol_jll.jl/releases/download/SeisSol-v1.3.2+0/SeisSol.v1.3.2.x86_64-w64-mingw32-cxx11-mpi+microsoftmpi.tar.gz"
