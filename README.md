@@ -25,6 +25,28 @@ The tarballs for `SeisSol_jll.jl` have been built from these sources:
 
 `SeisSol_jll.jl` is available for the following platforms:
 
+* `Platform("aarch64", "macos"; mpi = "mpiabi")` (`aarch64-apple-darwin-mpi+mpiabi`)
+* `Platform("aarch64", "macos"; mpi = "mpich")` (`aarch64-apple-darwin-mpi+mpich`)
+* `Platform("aarch64", "macos"; mpi = "mpitrampoline")` (`aarch64-apple-darwin-mpi+mpitrampoline`)
+* `Platform("aarch64", "macos"; mpi = "openmpi")` (`aarch64-apple-darwin-mpi+openmpi`)
+* `Platform("aarch64", "linux"; mpi = "mpiabi", libc = "glibc", cxxstring_abi = "cxx11")` (`aarch64-linux-gnu-cxx11-mpi+mpiabi`)
+* `Platform("aarch64", "linux"; mpi = "mpich", libc = "glibc", cxxstring_abi = "cxx11")` (`aarch64-linux-gnu-cxx11-mpi+mpich`)
+* `Platform("aarch64", "linux"; mpi = "mpitrampoline", libc = "glibc", cxxstring_abi = "cxx11")` (`aarch64-linux-gnu-cxx11-mpi+mpitrampoline`)
+* `Platform("aarch64", "linux"; mpi = "openmpi", libc = "glibc", cxxstring_abi = "cxx11")` (`aarch64-linux-gnu-cxx11-mpi+openmpi`)
+* `Platform("aarch64", "linux"; mpi = "mpiabi", libc = "musl", cxxstring_abi = "cxx11")` (`aarch64-linux-musl-cxx11-mpi+mpiabi`)
+* `Platform("aarch64", "linux"; mpi = "mpich", libc = "musl", cxxstring_abi = "cxx11")` (`aarch64-linux-musl-cxx11-mpi+mpich`)
+* `Platform("aarch64", "linux"; mpi = "openmpi", libc = "musl", cxxstring_abi = "cxx11")` (`aarch64-linux-musl-cxx11-mpi+openmpi`)
+* `Platform("x86_64", "macos"; mpi = "mpiabi")` (`x86_64-apple-darwin-mpi+mpiabi`)
+* `Platform("x86_64", "macos"; mpi = "mpich")` (`x86_64-apple-darwin-mpi+mpich`)
+* `Platform("x86_64", "macos"; mpi = "mpitrampoline")` (`x86_64-apple-darwin-mpi+mpitrampoline`)
+* `Platform("x86_64", "macos"; mpi = "openmpi")` (`x86_64-apple-darwin-mpi+openmpi`)
+* `Platform("x86_64", "linux"; mpi = "mpiabi", libc = "glibc", cxxstring_abi = "cxx11")` (`x86_64-linux-gnu-cxx11-mpi+mpiabi`)
+* `Platform("x86_64", "linux"; mpi = "mpich", libc = "glibc", cxxstring_abi = "cxx11")` (`x86_64-linux-gnu-cxx11-mpi+mpich`)
+* `Platform("x86_64", "linux"; mpi = "mpitrampoline", libc = "glibc", cxxstring_abi = "cxx11")` (`x86_64-linux-gnu-cxx11-mpi+mpitrampoline`)
+* `Platform("x86_64", "linux"; mpi = "openmpi", libc = "glibc", cxxstring_abi = "cxx11")` (`x86_64-linux-gnu-cxx11-mpi+openmpi`)
+* `Platform("x86_64", "linux"; mpi = "mpiabi", libc = "musl", cxxstring_abi = "cxx11")` (`x86_64-linux-musl-cxx11-mpi+mpiabi`)
+* `Platform("x86_64", "linux"; mpi = "mpich", libc = "musl", cxxstring_abi = "cxx11")` (`x86_64-linux-musl-cxx11-mpi+mpich`)
+* `Platform("x86_64", "linux"; mpi = "openmpi", libc = "musl", cxxstring_abi = "cxx11")` (`x86_64-linux-musl-cxx11-mpi+openmpi`)
 * `Platform("x86_64", "windows"; mpi = "microsoftmpi", cxxstring_abi = "cxx11")` (`x86_64-w64-mingw32-cxx11-mpi+microsoftmpi`)
 
 ## Dependencies
