@@ -1,25 +1,5 @@
 [[SeisSol]]
 arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "eaa67f69a595fb3956f4f18457ea24383628e00a"
-mpi = "mpich"
-os = "macos"
-
-    [[SeisSol.download]]
-    sha256 = "2f7b4ab5f32add241b9d7d601f53784cc962abc46aaccdbcebace7a85bd1746b"
-    url = "https://github.com/boriskaus/SeisSol_jll.jl/releases/download/SeisSol-v1.3.2+0/SeisSol.v1.3.2.aarch64-apple-darwin-cxx11-mpi+mpich.tar.gz"
-[[SeisSol]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "0cdabf8304f500652a56fb958ad53be815fe3a4c"
-mpi = "mpich"
-os = "macos"
-
-    [[SeisSol.download]]
-    sha256 = "ac66e1bb6829423e4ad8436bbfe70e60645ff10d238e91975494157a3c9d1737"
-    url = "https://github.com/boriskaus/SeisSol_jll.jl/releases/download/SeisSol-v1.3.2+0/SeisSol.v1.3.2.x86_64-apple-darwin-cxx11-mpi+mpich.tar.gz"
-[[SeisSol]]
-arch = "aarch64"
 git-tree-sha1 = "d097b1e0781001fa0ff7692f5262f2ca0871faab"
 mpi = "mpiabi"
 os = "macos"
